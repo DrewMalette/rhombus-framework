@@ -1,0 +1,48 @@
+	
+	Game Designer's Checklist
+	- Players should be able to:
+	  go somewhere cool
+	  talk to someone interesting
+	  learn something new
+	  fight something
+	  get a reward
+
+	World Building
+	
+	First Questions
+	- What World?
+	  earth?; space?; other planet?
+	- What Era?
+	  past; present, future
+	  
+	Second Questions
+	- Magic(and/or Psionics)
+	  none; low; high
+	- Technology
+	  low; current; high
+	  
+	Finishing Touches
+	- Society
+	  - Dystopian
+	  - Utopian
+	  - Anarchist
+	  - Etc.,
+	  
+	- Antagonist(s)
+	  - Evil Wizard
+	  - Rogue AI
+	  - Alien Invasion
+	  
+	- General Goals
+	  - Help/Stop Government
+	  - Save People
+	  - Change Society from Within
+	  
+	Make the Story
+	- Building the "Lore"
+	  - History of the World
+	  - Attitudes/Dispositions of the People
+	  - Backgrounds of PCs
+	  - Antagonist's Origin and Goals
+	  - Layout and "Feel" of the World
+	  - End Goal of the PCs
