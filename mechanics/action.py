@@ -6,7 +6,7 @@ class Action(pygame.Rect):
 
 	def __init__(self):
 	
-		pygame.Rect.__init__(self, (0,0,12,12)) # defaults to basic interaction rect
+		pygame.Rect.__init__(self, (0,0,12,12))
 		
 	def interact(self, mob_obj):
 
