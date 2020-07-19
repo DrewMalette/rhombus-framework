@@ -1,4 +1,4 @@
-# entrypoint.py; rename to main.py
+# main.py
 
 import os
 
@@ -8,7 +8,6 @@ from core import filepaths
 
 def test_tmx_init(game_obj, filename):
 
-	# eventually I want to replace this with a generic onion sprite
 	pygame.display.set_caption(filename)
 	game_obj.player = core.Player("Ark", game_obj, os.path.join(filepaths.image_path, "spr_ark2.png"))
 	game_obj.load_scene(filename, os.path.join(filepaths.scene_path, filename))
@@ -57,7 +56,6 @@ def playermenu_init(game_obj):
 	game_obj.scene_obj.paused = True
 	game_obj.obj_stack = [ game_obj.scene_obj, game_obj.ui["playermenu"] ]
 	game_obj.ui["playermenu"].start()
-	#game_obj.script = playermenu_loop
 	game_obj.script = None
 
 def gameplay_init(game_obj): # returning to gameplay
@@ -66,8 +64,8 @@ def gameplay_init(game_obj): # returning to gameplay
 	game_obj.script = gameplay_loop
 	game_obj.scene_obj.paused = False
 	
-def gameplay_loop(game_obj): # game.script will still exist but only in a minor way
-	
+def gameplay_loop(game_obj):
+
 	if game_obj.controller.pressed_a:# and not game_obj.player.in_dialogue:
 		dialogue = ["Greetings and welcome", "to a sample scene", "for the rhombus", "framework", " ", " "]
 		dialogue_init(game_obj, dialogue)
